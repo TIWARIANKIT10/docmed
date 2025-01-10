@@ -1,0 +1,72 @@
+.headerdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+   
+   
+}
+#headerdivfirstchild >ul{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: flex-start;
+
+
+}
+#headerdivfirstchild >ul >li{
+    padding-left: 10px;
+}
+#headerdivfirstchild >ul >li>a{
+    font-weight:  bold;
+}
+#headerdivsecondchild >ul >li>a>img{
+   
+    width: 24px;
+    height: 24px;
+}
+
+#headerdivsecondchild >ul{
+    display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+
+justify-content: flex-end;
+
+}
+
+
+#headerdivsecondchild>ul>li{
+    display: flex;
+    justify-content: flex-end;
+    padding-left:30px ;
+    padding-right: 30px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration-line: none;
+}
+
+header{
+    background-color: rgb(208, 212, 216);
+}
+body{
+    margin: 0;
+    padding:0;
+
+}

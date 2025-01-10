@@ -1,0 +1,50 @@
+#sectionfourth{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 80px;
+    padding-bottom:200px ;
+}
+.imagecontainer{
+    position: relative; 
+    width: 200px; 
+    height: 150px;
+}
+.image1,.image2{
+    position: absolute; 
+  top: 0;
+  left: 0;
+}
+.image2 {
+    left: 200px; 
+    top: 100px; 
+  }
+
+  #sectionfourthseconddiv{
+    padding-top:100px ;
+    padding-left: 450px;
+  }
+
+  #sectionfourthseconddiv >div>h2{
+    font-size: 40px;
+
+  }
+  #sectionfourthseconddiv >div>h4{
+    font-size: 20px;
+
+  }
+  #sectionfourthseconddiv >div>a{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    border: solid 1px  blue;
+
+  }
+  #sectionfourthseconddiv >div>ul{
+    list-style-type: circle;
+  }
+
+
+ 
+
+  
