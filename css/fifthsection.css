@@ -1,0 +1,47 @@
+#fifthfirst{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+#collection{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top:50px ;
+  
+    
+}
+.collectiondata{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transform: translateY(-2px); 
+    transition: transform 0.3s, box-shadow 0.3s; 
+    
+
+}
+#collection2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top:30px ;
+}
+
+.collectiondata >div >img{
+    transition: transform 0.3s ease-in-out;
+
+}
+.collectiondata >div >img:hover{
+    transform: scale(1.2);
+
+}
+
+.collectiondata>div>a:hover{
+    text-decoration-line: underline;
+}
